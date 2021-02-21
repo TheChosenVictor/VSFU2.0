@@ -35,6 +35,10 @@ NDefines.NCountry.EXPLOIT_COOLDOWN_MONTHS = 120
 NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.3
 NDefines.NMilitary.WARGOAL_MAX_BONUS = 40
 
+-- Economy
+NDefines.NMilitary.CARAVAN_POWER_MAX = 25
+NDefines.NMilitary.CARAVAN_POWER_MIN = 1
+
 package.loaded["debug"] = nil
 _G["debug"] = nil
 debug = nil
