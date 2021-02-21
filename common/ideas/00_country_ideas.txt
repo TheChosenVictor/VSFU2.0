@@ -428,7 +428,7 @@ DAN_ideas = {
 	free = yes		#will be added at load.
 
 	nordic_rulers_legacy = {
-		shock_damage = 0.1
+		shock_damage_received = -0.1
 	}
 	vornedskab = {
 		global_manpower_modifier = 0.2
