@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+technology_group = muslim
+unit_type = sub_saharan
+religion = sunni
+primary_culture = somali
+capital = 2775 #Merca
+religious_school = shafii_school
+
+1444.1.1 = {
+	monarch = {
+		name= "Arliqo"
+		dip = 6
+		mil = 6s
+		adm = 6
+	}
+	add_piety = 0.75
+}

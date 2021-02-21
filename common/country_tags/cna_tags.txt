@@ -1,0 +1,3 @@
+CNA	= "countries/China.txt"
+CHW = "countries/Bachwezi.txt"
+IND = "countries/India.txt"

@@ -1,0 +1,51 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = hessian
+religion = catholic
+elector = yes
+technology_group = western
+capital = 1762	# Kassel
+
+
+1444.11.11 = {
+	monarch = {
+		name = "Ludwig I"
+		dynasty = "von Hessen"
+		birth_date = 1422.11.11
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = lawgiver_personality
+}
+
+1433.9.8 = {
+	queen = {
+		country_of_origin = SAX
+		name = "Anna"
+		dynasty = "von Wettin"
+		birth_date = 1425.6.5
+		death_date = 1462.9.17
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1440.11.11 = {
+	heir = {
+		name = "Ludwig"
+		monarch_name = "Ludwig II"
+		dynasty = "von Hessen"
+		birth_date = 1440.11.11
+		death_date = 1471.11.8
+		claim = 100
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

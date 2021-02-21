@@ -1,0 +1,118 @@
+country_decisions = {
+	create_kitara_empire = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+
+			NOT = { has_country_flag = formed_bachwezi_empire_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = CHW }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+					adm_tech = 10
+				}
+			}
+			OR = {
+				culture_group = great_lakes_group
+				culture_group = african
+				culture_group = cushitic
+				culture_group = southern_african
+				culture_group = kongo_group
+			}
+
+			OR = {
+				technology_group = sub_saharan
+				technology_group = east_african
+				technology_group = central_african
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4064 # Buganda
+				province_id = 4065 # Bunyoro
+				province_id = 4062 # Busoga
+				province_id = 4066 # Nkore
+				province_id = 4067 # Nduga
+				province_id = 4063 # Karagwe
+				province_id = 4069 # Bushubi
+				province_id = 4070 # Nkoma
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+				
+			owns_core_province = 4064 # Buganda
+			owns_core_province = 4065 # Bunyoro
+			owns_core_province = 4062 # Busoga
+			owns_core_province = 4066 # Nkore
+			owns_core_province = 4067 # Nduga
+			owns_core_province = 4063 # Karagwe
+			owns_core_province = 4069 # Bushubi
+			owns_core_province = 4070 # Nkoma
+		}
+
+		effect = {
+			4064 = { #Buganda
+				move_capital_effect = yes
+			}
+			change_tag = CHW
+			restore_country_name_effect = yes
+
+			central_africa_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = CHW
+			}
+
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+
+			add_prestige = 25
+
+			set_country_flag = formed_bachwezi_empire_flag
+
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

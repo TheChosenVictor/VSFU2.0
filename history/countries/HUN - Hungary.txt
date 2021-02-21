@@ -1,0 +1,24 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = hungarian
+add_accepted_culture = slovak
+add_accepted_culture = transylvanian
+religion = orthodox
+technology_group = eastern
+historical_rival = BOH
+capital = 153 # Buda
+
+add_army_professionalism = 0.1
+
+1444.1.1 = {
+	monarch = {
+		name = "Mike"
+		dynasty = "von Boomer"
+		culture = austrian
+		birth_date = 1410.1.1		
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+		clear_scripted_personalities = yes
+	}

@@ -1,0 +1,113 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+elector = yes
+technology_group = western
+primary_culture = saxon
+religion = catholic
+capital = 50	# Berlin
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 10
+}
+
+
+1378.12.9 = { 
+	monarch = {
+		name = "Siegmund I"
+		dynasty = "von Luxemburg"
+		birth_date = 1368.2.14
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1388.1.1 = {
+	monarch = {
+		name = "Jobst I"
+		dynasty = "von Luxemburg"
+		birth_date = 1354.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1411.1.18 = {
+	monarch = {
+		name = "Siegmund I"
+		dynasty = "von Luxemburg"
+		birth_date = 1368.2.14
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1415.1.1 = {
+	monarch = {
+		name = "Friedrich I"
+		dynasty = "von Hohenzollern"
+		birth_date = 1371.9.21
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1415.1.1 = {
+	heir = {
+		name = "Friedrich"
+		monarch_name = "Friedrich II"
+		dynasty = "von Hohenzollern"
+		birth_date = 1413.11.19
+		death_date = 1471.2.10
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1440.9.21 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Hohenzollern"
+		birth_date = 1413.11.19
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = incorruptible_personality
+	add_heir_personality = inspiring_leader_personality
+	queen = {
+		country_of_origin = SAX
+		name = "Catherine"
+		dynasty = "von Wettin"
+		birth_date = 1421.1.1
+		death_date = 1476.8.23
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Albrecht Achilles"
+		monarch_name = "Albrecht III Achilles"
+		dynasty = "von Hohenzollern"
+		birth_date = 1414.11.9
+		death_date = 1486.3.11
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	set_country_flag = albrecht_achilles_flag
+}

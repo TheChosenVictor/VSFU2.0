@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = iqta
+technology_group = east_african
+unit_type = sub_saharan
+religion = sunni
+primary_culture = somali
+capital = 2780
+religious_school = maliki_school
+
+1444.11.11 = {
+	monarch = {
+		name= "Sal"
+		dynasty = "Al-Mahdiyya"
+		birth_date = 1424.11.11
+		dip = 5
+		mil = 5
+		adm = 5
+	}
+	add_piety = 0.50
+	clear_scripted_personalities = yes
+}

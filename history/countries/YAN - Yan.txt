@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = chihan
+capital = 1816	#Beijing
+
+1444.11.11 = {
+	monarch = {
+		name = "Yi"
+		dynasty = "Yan"
+		birth_date = 1420.1.1
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

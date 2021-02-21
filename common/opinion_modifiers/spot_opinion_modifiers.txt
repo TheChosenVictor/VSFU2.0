@@ -1,0 +1,3 @@
+i_fucking_hate_austria = {
+	opinion = -200
+}

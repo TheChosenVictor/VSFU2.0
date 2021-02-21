@@ -1,0 +1,35 @@
+country_decisions = {
+	
+	indian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_india_flag }
+			NOT = { exists = IND }
+			OR = {	
+				tag = MER
+				tag = DEC
+				tag = VIJ
+				tag = HIN
+				tag = BHA
+				tag = BAH
+
+			}
+		}
+		allow = {
+			adm_tech = 14
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			total_development = 800
+		}
+		effect = {
+			change_tag = IND
+			add_prestige = 30
+			set_country_flag = formed_india_flag
+		}	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

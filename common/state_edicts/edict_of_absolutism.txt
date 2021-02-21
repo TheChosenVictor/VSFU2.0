@@ -1,0 +1,22 @@
+edict_of_absolutism = {
+	
+	potential = {
+		always = yes		#we support "potential" if modders want to have lots and just show some.
+	}
+	
+	allow = {
+		always = yes
+	}
+	
+	modifier = {
+		local_monthly_devastation = -0.5
+	}
+	
+	color = {  116 198 240  }
+	
+	
+	ai_will_do = {
+		factor = 0
+	}
+	
+}

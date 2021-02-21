@@ -1,0 +1,67 @@
+country_decisions = {
+
+	somalian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_somalia_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = SOM }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			culture_group = somali
+
+			is_colonial_nation = no
+			}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1205
+				province_id = 1209
+				province_id = 2785
+				province_id = 2024 
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 5
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1205
+			owns_core_province = 1209
+			owns_core_province = 2785
+			owns_core_province = 2024
+		}
+		effect = {
+			if = {
+				limit = { is_revolutionary = no }
+				add_government_reform = feudal_theocracy
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			change_tag = SOM
+			add_prestige = 100
+			SOM = {
+				set_capital = 1205
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_somalia_flag
+		}	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

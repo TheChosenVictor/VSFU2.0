@@ -1,0 +1,88 @@
+country_decisions = {
+	black_market_consortium_decision = {
+		major = yes
+		potential = {
+			always = no
+			has_reform = pirate_republic_reform
+			NOT = { has_dlc = "Dharma" }
+			NOT = { has_dlc = "Emperor" }
+		}
+		allow = {
+			adm_tech = 12
+			full_idea_group = trade_ideas
+			stability = 1
+			custom_trigger_tooltip = {
+				tooltip = recently_changed_government_flag_tooltip
+				OR = {
+					NOT = { has_country_flag = recently_changed_government_flag }
+					had_country_flag = { flag = recently_changed_government_flag days = 9125 }
+				}
+			}
+		}
+		effect = {
+			#set_legacy_government = black_market_consortium_government
+			add_stability = -1
+			set_country_flag = recently_changed_government_flag
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	war_against_the_world_decision = {
+		major = yes
+		potential = {
+			always = no
+			has_reform = pirate_republic_reform
+			NOT = { has_dlc = "Dharma" }
+			NOT = { has_dlc = "Emperor" }
+		}
+		allow = {
+			adm_tech = 12
+			republican_tradition = 90
+			stability = 1
+			custom_trigger_tooltip = {
+				tooltip = recently_changed_government_flag_tooltip
+				OR = {
+					NOT = { has_country_flag = recently_changed_government_flag }
+					had_country_flag = { flag = recently_changed_government_flag days = 9125 }
+				}
+			}
+		}
+		effect = {
+			add_stability = -1
+			#set_legacy_government = war_against_the_world_government
+			abolish_slavery_effect = yes
+			set_country_flag = recently_changed_government_flag
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	lower_black_flag_decision = {
+		major = yes
+		potential = {
+			always = no
+			has_reform = pirate_republic_reform
+			NOT = { has_dlc = "Dharma" }
+			NOT = { has_dlc = "Emperor" }
+		}
+		allow = {
+			stability = 1
+			custom_trigger_tooltip = {
+				tooltip = recently_changed_government_flag_tooltip
+				OR = {
+					NOT = { has_country_flag = recently_changed_government_flag }
+					had_country_flag = { flag = recently_changed_government_flag days = 9125 }
+				}
+			}
+		}
+		effect = {
+			add_stability = -1
+			#set_legacy_government = oligarchic_republic
+			set_country_flag = recently_changed_government_flag
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
