@@ -20,20 +20,12 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 504
-				province_id = 225
 				province_id = 151
-				province_id = 410
+				province_id = 296
 				province_id = 385
-				province_id = 384
-				province_id = 124
-				province_id = 125
-				province_id = 425
-				province_id = 382
-				province_id = 454
-				province_id = 347
-				province_id = 388
-				province_id = 400				
+				province_id = 2213
+				province_id = 341
+								
 			}
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
