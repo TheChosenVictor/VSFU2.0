@@ -3,7 +3,7 @@
 owner = HUN
 controller = HUN 
 culture = slovak
-religion = orthodox
+religion = catholic
 capital = "Hont"
 trade_goods = gold #Schemnitz / Banská Štiavnica
 hre = no

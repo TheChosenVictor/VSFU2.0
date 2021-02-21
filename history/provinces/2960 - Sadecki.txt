@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 culture = polish
-religion = orthodox
+religion = catholic
 capital = "Nowy Sacz"
 hre = no
 base_tax = 6
