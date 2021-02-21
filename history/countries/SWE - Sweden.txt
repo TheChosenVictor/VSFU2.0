@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 technology_group = western
 unit_type = western
 primary_culture = swedish
-religion = orthodox 
+religion = orthodox
 add_accepted_culture = finnish
 capital = 1	#Stockholm
 
