@@ -325,6 +325,7 @@ country_decisions = {
 				tag = HOL
 				tag = NED
 				tag = HES
+				tag = DAN
 				primary_culture = lower_saxon
 			}
 			NOT = { tag = HLR }
@@ -454,6 +455,7 @@ country_decisions = {
 				primary_culture = rhenish
 				tag = HOL
 				tag = NED
+				tag = DAN
 			}
 			is_colonial_nation = no
 			OR = {
