@@ -60,6 +60,7 @@ feudalism = {
 					culture = omani_culture
 					culture = yemeni_culture
 					culture = swahili
+					culture = uzbehk
 					area = ningguta_area
 					area = jilin_area
 					culture_group = byzantine
