@@ -29,8 +29,16 @@ country_decisions = {
 					NOT = { government = theocracy }
 				}
 			}
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
+			OR = {  
+				tag = BRA
+				tag = PRU
+				tag = HES
+				tag = SWI
+				tag = HAN
+				tag = WES
+				tag = SWA
+				tag = HAB
+			}
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
