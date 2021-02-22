@@ -47,7 +47,7 @@ GER_ideas = {
 		legitimacy = 1
 		devotion = 1
 		republican_tradition = 0.3
-		infantry_power = 0.15
+		infantry_power = 0.20
 	}
 	
 	bonus = {
@@ -60,13 +60,14 @@ GER_ideas = {
 	free = yes
 	
 	ger_german_confederation = {
-		global_unrest = -2
+		land_morale = 0.2
 	}
 	ger_german_universities = {
 		technology_cost = -0.1
 	}
 	ger_reichsheer = {
 		discipline = 0.05
+		global_manpower_modifier = 0.25
 	}
 	ger_new_hanseatics = {
 		trade_efficiency = 0.10
