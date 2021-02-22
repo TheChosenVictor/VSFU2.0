@@ -182,7 +182,7 @@ SCA_ideas = {
 	}
 	SCA_3 = { 
 		land_morale = 0.1
-		movement_speed = 0.15
+		advisor_cost = -0.1
 	}
 	SCA_4 = { 
 		global_missionary_strength = 0.03
@@ -197,6 +197,45 @@ SCA_ideas = {
 	SCA_7 = {
 		prestige = 1
 		army_tradition = 1
+	}
+}
+
+BUK_ideas = { 
+	start = {
+		shock_damage_received = -0.10
+		land_morale = 0.10
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = BUK
+	}
+	free = yes
+	
+	BUK_1 = {
+		merchants = 1
+	}
+	BUK_2 = { 
+		local_defensiveness = 0.1
+		cavalry_power = 0.1
+	}
+	BUK_3 = { 
+		movement_speed = 0.15
+	}
+	BUK_4 = { 
+		global_missionary_strength = 0.02
+	}
+	BUK_5 = { 
+		manpower_recovery_speed = 0.1
+	}
+	BUK_6 = { 
+        global_manpower_modifier = 0.25
+	}
+	BUK_7 = {
+		reinforce_speed = 0.2
 	}
 }
 
