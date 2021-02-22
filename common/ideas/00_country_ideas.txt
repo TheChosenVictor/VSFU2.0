@@ -11466,12 +11466,13 @@ LRI_ideas = {
 
 QAR_ideas = {
 	start = {
-		leader_land_shock = 1
+		
 		cavalry_power = 0.2
 		global_unrest = -4
 	}
 	bonus = {
 		leader_land_fire = 1
+		leader_land_shock = 1
 	}
 	trigger = {
 		tag = QAR
