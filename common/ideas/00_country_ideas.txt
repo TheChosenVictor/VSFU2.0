@@ -11472,7 +11472,6 @@ QAR_ideas = {
 	}
 	bonus = {
 		leader_land_fire = 1
-		leader_land_shock = 1
 	}
 	trigger = {
 		tag = QAR
@@ -11481,6 +11480,7 @@ QAR_ideas = {
 	
 	qar_black_sheep = {
 		global_manpower_modifier = 0.25
+		leader_land_shock = 1
 	}
 	qar_governor_of_azerbaijan = {
 		province_warscore_cost = -0.05
