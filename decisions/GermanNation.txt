@@ -29,8 +29,16 @@ country_decisions = {
 					NOT = { government = theocracy }
 				}
 			}
-			culture_group = germanic
-			NOT = { primary_culture = dutch }
+			OR = {  
+				tag = BRA
+				tag = PRU
+				tag = HES
+				tag = SWI
+				tag = HAN
+				tag = WES
+				tag = SWA
+				tag = HAB
+			}
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -42,95 +50,25 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
+				province_id = 188
+				province_id = 189
+				area = silesia_area
 				AND = {
 					OR = {
 						region = north_german_region
 						region = south_german_region
 					}
-					root = {
-						NOT = {
+					NOT = {
+						ROOT = {
 							num_of_owned_provinces_with = {
-								is_core = ROOT
+								value = 100
+								is_core = root
 								OR = {
 									region = north_german_region
 									region = south_german_region
 								}
-								value = 50
 							}
 						}
-					}
-				}
-				province_id = 50
-				province_id = 57
-				province_id = 65
-				AND = {
-					ROOT = {
-						NOT = { owns_core_province = 75 }
-						NOT = { owns_core_province = 41 }
-					}
-					OR = {
-						province_id = 75
-						province_id = 41
-					}
-				}
-				AND = {
-					ROOT = {
-						NOT = { owns_core_province = 1868 }
-						NOT = { owns_core_province = 70 }
-					}
-					OR = {
-						province_id = 1868
-						province_id = 70
-					}
-				}
-				AND = {
-					ROOT = {
-						NOT = { owns_core_province = 1876 }
-						NOT = { owns_core_province = 67 }
-					}
-					OR = {
-						province_id = 1876
-						province_id = 67
-					}
-				}
-				AND = {
-					ROOT = {
-						NOT = { owns_core_province = 1762 }
-						NOT = { owns_core_province = 85 }
-					}
-					OR = {
-						province_id = 1762
-						province_id = 85
-					}
-				}
-				AND = {
-					ROOT = {
-						NOT = { owns_core_province = 41 }
-						NOT = { owns_core_province = 75 }
-					}
-					OR = {
-						province_id = 41
-						province_id = 75
-					}
-				}
-				AND = {
-					ROOT = {
-						NOT = { owns_core_province = 44 }
-						NOT = { owns_core_province = 45 }
-					}
-					OR = {
-						province_id = 44
-						province_id = 45
-					}
-				}
-				AND = {
-					ROOT = {
-						NOT = { owns_core_province = 61 }
-						NOT = { owns_core_province = 63 }
-					}
-					OR = {
-						province_id = 61
-						province_id = 63
 					}
 				}
 			}
@@ -144,56 +82,20 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			is_emperor = no
-			owns_core_province = 50	# Berlin
-			owns_core_province = 57	# Brunswick
-			owns_core_province = 65	# München
-			OR = {
-				owns_core_province = 1868 # Augsburg
-				owns_core_province = 70 # Wurttemberg
-			}
-			OR = {
-				owns_core_province = 67	# Nürnberg
-				owns_core_province = 1876 # Frankfurt
-			}
-			OR = {
-				owns_core_province = 1762 # Niederhessen
-				owns_core_province = 85	# Köln
-			}
-			OR = {
-				owns_core_province = 41	# Königsberg
-				owns_core_province = 75	# Strassburg
-			}
-			OR = {
-				owns_core_province = 44	# Hamburg
-				owns_core_province = 45	# Lubeck
-			}
-			OR = {
-				owns_core_province = 61	# Dresden
-				owns_core_province = 63	# Thüringen
-			}
 			num_of_owned_provinces_with = {
-				is_core = ROOT
+				value = 100
+				is_core = root
 				OR = {
 					region = north_german_region
 					region = south_german_region
 				}
-				value = 50
 			}
+			silesia_area = { type = all is_core = ROOT owned_by = ROOT }
+			owns_core_province = 188
+			owns_core_province = 189
 		}
 		effect = {
 			change_tag = GER
-			restore_country_name_effect = yes
-			emperor = {
-				add_opinion = {
-					who = root
-					modifier = opinion_left_empire
-				}
-			}
-			set_in_empire = no
-			emperor = {
-				country_event = { id = hre_event.5 }
-			}
 			set_government_rank = 3
 			north_german_region = {
 				limit = {
