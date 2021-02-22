@@ -20,6 +20,7 @@ country_decisions = {
 			NOT = { tag = ENG }
 			is_emperor_of_china = no
 			primary_culture = turkish
+			primary_culture = egyptian
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -50,9 +51,6 @@ country_decisions = {
 			is_subject = no #Cannot even be a tributary
 			is_nomad = no
 			religion_group = muslim
-			NOT = { exists = RUM }
-			NOT = { exists = TUR }
-			NOT = { exists = BYZ }
 			owns_core_province = 151		# Constantinople
 			owns_core_province = 316		# Iznik
 			owns_core_province = 323		# Konya
@@ -80,7 +78,7 @@ country_decisions = {
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
 				set_government_rank = 2
 			}
