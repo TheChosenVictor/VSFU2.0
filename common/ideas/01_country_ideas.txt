@@ -134,8 +134,8 @@ ARB_ideas = { #Arabian Empire
 		global_sailors_modifier = 0.25
 	}
 	arb_2 = { #Arabian Horsemanship
-		cavalry_cost = -0.1
-		cavalry_power = 0.2
+		merchants = 1
+		land_morale = 0.1
 	}
 	arb_3 = { #Bedouin Raiders
 		hostile_attrition = 1
@@ -229,13 +229,13 @@ BUK_ideas = {
 		global_missionary_strength = 0.02
 	}
 	BUK_5 = { 
-		manpower_recovery_speed = 0.1
+		build_cost = -0.1
 	}
 	BUK_6 = { 
         global_manpower_modifier = 0.25
 	}
 	BUK_7 = {
-		reinforce_speed = 0.2
+		monarch_admin_power = 1
 	}
 }
 

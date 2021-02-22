@@ -6,7 +6,7 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_bukhara_flag }
-			OR = 
+			OR = {
 				ai = no
 				is_playing_custom_nation = no
 			}
@@ -23,7 +23,22 @@ country_decisions = {
 			NOT = { has_country_flag = bukharan_nation }
 		}
 		provinces_to_highlight = {
-			province_id = 442
+			OR = {
+				province_id = 2370 
+				province_id = 440 
+				province_id = 2362 
+				province_id = 1973 
+				province_id = 441 
+				province_id = 442 #Bukhara
+				province_id = 453 
+				province_id = 454
+				province_id = 1967 
+				province_id = 458
+				province_id = 460 
+				province_id = 457 
+				province_id = 2356 
+				province_id = 2364
+			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
@@ -33,7 +48,20 @@ country_decisions = {
 			has_institution = feudalism
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
+			owns_core_province = 2370 
+			owns_core_province = 440 
+			owns_core_province = 2362 
+			owns_core_province = 1973 
+			owns_core_province = 441 
 			owns_core_province = 442 #Bukhara
+			owns_core_province = 453 
+			owns_core_province = 454
+			owns_core_province = 1967 
+			owns_core_province = 458
+			owns_core_province = 460 
+			owns_core_province = 457 
+			owns_core_province = 2356 
+			owns_core_province = 2364
 			NOT = { 
 				overlord_of = SIB
 			}
@@ -73,17 +101,17 @@ country_decisions = {
 					NOT = { government = monarchy }
 					is_revolutionary = no
 				}
-				change_government_to_monarchy = yes
+				change_government = republic
 			}
-			if = {
-				limit = { is_revolutionary = no }
-				add_government_reform = iqta
-			}
-			change_technology_group = muslim
-			change_unit_type = muslim
+			change_technology_group = eastern
+			change_unit_type = eastern
 			set_global_flag = bukhara_formed
 			#country_event = { id = ideagroups.1 } #Swap Ideas		#Removed for now, add back if Bukhara gets own ideas
 			set_country_flag = formed_bukhara_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 		}
 
 		ai_will_do = {

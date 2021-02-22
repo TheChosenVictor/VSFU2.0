@@ -1512,6 +1512,7 @@ ruthenian_ideas = {
 		OR = {
 			primary_culture = ruthenian
 			primary_culture = byelorussian
+			TAG = UKR
 		}
 	}
 	free = yes
@@ -1524,7 +1525,7 @@ ruthenian_ideas = {
 		tolerance_heretic = 2
 	}
 	zaporizhian_cossacs = {
-		cavalry_power = 0.15
+		cavalry_power = 0.2
 	}
 	east_and_west = {
 		global_trade_power = 0.1
@@ -1536,7 +1537,7 @@ ruthenian_ideas = {
 		years_of_nationalism = -5
 	}
 	birth_of_russian_orthodoxy = {
-		tolerance_own = 1
+		land_morale = 0.15
 	}
 }
 

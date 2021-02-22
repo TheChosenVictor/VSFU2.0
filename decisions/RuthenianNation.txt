@@ -16,6 +16,7 @@ country_decisions = {
 			OR = {
 				primary_culture = byelorussian
 				primary_culture = ruthenian
+				primary_culture = lithuanian
 			}
 			OR = {
 				ai = no
