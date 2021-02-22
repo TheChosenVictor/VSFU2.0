@@ -11468,6 +11468,7 @@ QAR_ideas = {
 	start = {
 		leader_land_shock = 1
 		cavalry_power = 0.2
+		global_unrest = -4
 	}
 	bonus = {
 		leader_land_fire = 1
@@ -11489,12 +11490,13 @@ QAR_ideas = {
 	}
 	qar_dynamic_warfare = {
 		leader_land_manuever = 1
+		land_morale = 0.10
 	}
 	qar_freedom_with_responsibility = {
 		reduced_liberty_desire = 10
 	}
 	qar_patron_of_iranian_culture = {
-		global_unrest = -1
+		discipline = 0.05
 	}
 	qar_irrigation_and_public_works = {
 		global_tax_modifier = 0.1
