@@ -522,7 +522,7 @@ prussian_monarchy = {
 		max_absolutism = 10
 		monarch_military_power = 3
 		nobles_loyalty_modifier = 0.1
-		governing_capacity_modifier = -0.35
+		governing_capacity_modifier = -0.20
 	}
 }
 
@@ -596,6 +596,10 @@ tsardom = {
 		OR = {
 			AND = {
 				tag = RUS
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				tag = UKR
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {

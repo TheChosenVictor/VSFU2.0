@@ -134,8 +134,8 @@ ARB_ideas = { #Arabian Empire
 		global_sailors_modifier = 0.25
 	}
 	arb_2 = { #Arabian Horsemanship
-		cavalry_cost = -0.1
-		cavalry_power = 0.2
+		merchants = 1
+		land_morale = 0.1
 	}
 	arb_3 = { #Bedouin Raiders
 		hostile_attrition = 1
@@ -159,7 +159,7 @@ ARB_ideas = { #Arabian Empire
 
 SCA_ideas = { 
 	start = {
-		development_cost = -0.10
+		development_cost = -0.05
 		land_forcelimit_modifier = 0.2
 	}
 	
@@ -172,33 +172,70 @@ SCA_ideas = {
 	}
 	free = yes
 	
-	SCA_1 = { #Baltic Jews
+	SCA_1 = {
 		trade_steering = 0.25
-		global_sailors_modifier = 0.25
+		trade_efficiency = 0.20
 	}
-	SCA_2 = { #Arabian Horsemanship
+	SCA_2 = { 
 		local_defensiveness = 0.1
-		cavalry_power = 0.2
+		infantry_power = 0.20
 	}
-	SCA_3 = { #Nordic killers
+	SCA_3 = { 
 		land_morale = 0.1
-		movement_speed = 0.3
+		advisor_cost = -0.1
 	}
-	SCA_4 = { #Spreading the Prophet's Word
+	SCA_4 = { 
 		global_missionary_strength = 0.03
 	}
-	SCA_5 = { #Unite the Vikings
-		land_maintenance_modifier = -0.1
-		manpower_recovery_speed = 0.2
-                shock_damage_received = -0.10
+	SCA_5 = { 
+		manpower_recovery_speed = 0.1
+        shock_damage_received = -0.10
 	}
-	SCA_6 = { #Noric thinkers
-		core_creation = -0.2
-                technology_cost = -0.1
+	SCA_6 = { 
+        technology_cost = -0.1
 	}
-	SCA_7 = { #Arabia
+	SCA_7 = {
 		prestige = 1
-		army_tradition = 0.5
+		army_tradition = 1
+	}
+}
+
+BUK_ideas = { 
+	start = {
+		shock_damage_received = -0.10
+		land_morale = 0.10
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = BUK
+	}
+	free = yes
+	
+	BUK_1 = {
+		merchants = 1
+	}
+	BUK_2 = { 
+		local_defensiveness = 0.1
+		cavalry_power = 0.1
+	}
+	BUK_3 = { 
+		movement_speed = 0.15
+	}
+	BUK_4 = { 
+		global_missionary_strength = 0.02
+	}
+	BUK_5 = { 
+		build_cost = -0.1
+	}
+	BUK_6 = { 
+        global_manpower_modifier = 0.25
+	}
+	BUK_7 = {
+		monarch_admin_power = 1
 	}
 }
 

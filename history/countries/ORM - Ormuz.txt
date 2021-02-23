@@ -8,6 +8,19 @@ add_accepted_culture = omani_culture
 capital = 2999	# Ormuz Island
 religious_school = maliki_school
 
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 11
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -15
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = 7
+}
+	
 #Rulers of Ormuz
 1442.1.1 = {
 	monarch = {
