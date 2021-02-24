@@ -3,10 +3,11 @@ add_government_reform = tribal_federation
 primary_culture = azerbaijani
 #add_accepted_culture = armenian
 add_accepted_culture = kurdish
+add_accepted_culture = mashriq
 religion = shiite
 technology_group = muslim
 capital = 416 # Tabriz
-religious_school = ismaili_school
+religious_school = zaidi_school
 
 1390.1.1 = {
 	monarch = {
@@ -25,10 +26,10 @@ religious_school = ismaili_school
 		dynasty = "Qara Qoyunlu"
 		birth_date = 1390.1.1
 		death_date = 1438.4.22
-		claim = 50
+		claim = 100
 		adm = 2
-		dip = 1
-		mil = 2
+		dip = 3
+		mil = 3
 	}
 }
 
