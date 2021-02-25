@@ -155,6 +155,7 @@ defender_of_faith_4 = {
 		missionaries = 1
 		missionary_maintenance_cost = -0.2
 		land_morale = 0.05
+		navy_morale = 0.05
 		prestige = 1
 		war_exhaustion = -0.03
 		manpower_in_true_faith_provinces = 0.1
