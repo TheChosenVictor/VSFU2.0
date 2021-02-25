@@ -1057,9 +1057,6 @@ cossacks_reform = {
 			have_had_reform = cossacks_reform
 		}
 	}
-	government_abilities = {
-		cossacks_mechanic
-	}
 	valid_for_new_country = yes
 
 	nation_designer_trigger = {
