@@ -1,7 +1,7 @@
 # 99 Gelre - Principal cities: Arnhem & Nijmegen
 
-owner = GEL
-controller = GEL 
+owner = HOL
+controller = HOL
 capital = "Arnhem"
 is_city = yes
 culture = dutch
@@ -11,7 +11,7 @@ base_tax = 6
 base_production = 6
 trade_goods = livestock
 base_manpower = 3
-add_core = GEL
+add_core = HOL
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
