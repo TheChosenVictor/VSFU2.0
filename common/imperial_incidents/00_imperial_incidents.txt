@@ -272,47 +272,6 @@
 #	}
 #}
 #
-#incident_great_peasants_war = {
-#	event = great_peasant_war.3
-#	default_option = 0
-#	
-#	can_stop = {
-#		always = no
-#	}
-#	
-#	0 = { # crush peasants
-#		factor = 1
-#		modifier = {
-#			factor = 10
-#			estate_influence = {
-#				estate = estate_nobles
-#				influence = 60
-#			}
-#		}
-#	}
-#	
-#	1 = { # concessions
-#		factor = 1
-#		modifier = {
-#			factor = 1000
-#			has_reform = peasants_republic
-#		}
-#		modifier = {
-#			factor = 10
-#			NOT = {
-#				estate_influence = {
-#					estate = estate_nobles
-#					influence = 40
-#				}
-#			}
-#		}
-#		modifier = {
-#			factor = 10
-#			religion = reformed
-#		}
-#	}
-#}
-#
 #incident_hansa = {
 #	event = hansa_incident.2
 #	default_option = 0
