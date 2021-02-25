@@ -473,7 +473,7 @@ FRA_ideas = {
 		tolerance_heretic = 2
 	}
 	elan = {
-		land_morale = 0.15
+		land_morale = 0.20
 		prestige = 1
 	}
 	estates_general = {
@@ -497,7 +497,7 @@ FRA_ideas = {
 TUR_ideas = {
 	start = {
 		discipline = 0.05
-		tolerance_heathen = 3
+		mil_advisor_cost = -0.15
 	}
 	
 	bonus = {
