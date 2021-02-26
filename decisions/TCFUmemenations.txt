@@ -5,7 +5,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_india_flag }
+			NOT = { has_country_flag = formed_india2_flag }
 			NOT = { exists = IND }
 			OR = {	
 				tag = MER
@@ -26,7 +26,7 @@ country_decisions = {
 		effect = {
 			change_tag = IND
 			add_prestige = 30
-			set_country_flag = formed_india_flag
+			set_country_flag = formed_india2_flag
 		}	
 		ai_will_do = {
 			factor = 1

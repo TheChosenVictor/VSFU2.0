@@ -29,7 +29,7 @@ h_orm_missions = {
 			}
 		}
 		effect = {
-			add_mercantilism = 5
+			add_mercantilism = 10
 			qasim_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
