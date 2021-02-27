@@ -1681,23 +1681,6 @@ country_event = {
 	}
 	
 	option = {
-		name = flavor_pol.18.a #We must retain the Jagiellon Dynasty
-		trigger = {
-			LIT = {
-				ai = yes
-				was_player = no
-			}
-		}
-		ai_chance = { 
-			factor = 75 
-		}
-		create_union = LIT
-		country_event = {
-			id = flavor_pol.20
-		}
-	}
-	
-	option = {
 		name = flavor_pol.18.b #Appoint a Local Noble.
 		ai_chance = { 
 			factor = 25

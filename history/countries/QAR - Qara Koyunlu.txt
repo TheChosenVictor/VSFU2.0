@@ -3,10 +3,9 @@ add_government_reform = tribal_federation
 primary_culture = azerbaijani
 #add_accepted_culture = armenian
 add_accepted_culture = kurdish
-add_accepted_culture = mashriq
 religion = shiite
 technology_group = muslim
-capital = 416 # Tabriz
+capital = 411 # Mosul
 religious_school = zaidi_school
 
 1390.1.1 = {
