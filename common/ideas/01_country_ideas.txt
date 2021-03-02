@@ -202,7 +202,7 @@ SCA_ideas = {
 
 BUK_ideas = { 
 	start = {
-		shock_damage_received = -0.10
+		shock_damage_received = -0.15
 		land_morale = 0.10
 	}
 	
@@ -220,7 +220,7 @@ BUK_ideas = {
 	}
 	BUK_2 = { 
 		local_defensiveness = 0.1
-		cavalry_power = 0.1
+		cavalry_power = 0.2
 	}
 	BUK_3 = { 
 		movement_speed = 0.15
