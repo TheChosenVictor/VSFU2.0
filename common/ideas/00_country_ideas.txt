@@ -380,7 +380,8 @@ NED_ideas = {
 	}
 	
 	trigger = {
-		tag = BUR
+		tag = HOL
+		tag = NED
 	}
 	free = yes
 	
