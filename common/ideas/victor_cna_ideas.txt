@@ -129,7 +129,7 @@ CNA_ideas = {
 	
 	CNA_ideas_1 = {
 		global_manpower_modifier = 0.50
-		infantry_power = -0.10
+		infantry_power = -0.15
 	}
 	CNA_ideas_2 = {
 		build_cost = -0.10
@@ -147,6 +147,7 @@ CNA_ideas = {
 		development_cost = -0.10
 	}
 	CNA_ideas_7 = {
-		land_forcelimit_modifier = 0.75
+		land_forcelimit_modifier = 0.50
+		discipline = -0.05
 	}
 }

@@ -21,6 +21,7 @@ NDefines.NDiplomacy.CONDOTTIERI_MIN_DURATION = 1
 NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 10
 NDefines.NDiplomacy.HRE_AUTHORITY_JOIN_EMPIRE = 0
 NDefines.NDiplomacy.GREAT_POWER_SUBJECT_CONTRIBUTION = 0
+NDefines.NDiplomacy.NUM_OF_GREAT_POWERS = 10
 
 ---Country
 NDefines.NCountry.MONARCH_MIN_SKILL = 1
