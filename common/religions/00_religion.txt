@@ -795,7 +795,7 @@ christian = {
 		
 		misguided_heretic = yes
 		
-		holy_sites = { 358 1227 2313 1234 419 }
+		holy_sites = { 358 1227 1205 1234 419 }
 		
 		blessings = {
 			legitimize_government

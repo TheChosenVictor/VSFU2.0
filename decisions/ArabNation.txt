@@ -43,6 +43,7 @@ country_decisions = {
 			tag = ADE
 			tag = YEM
 			tag = RAS
+			tag = MAM
 			}
 		}
 		provinces_to_highlight = {

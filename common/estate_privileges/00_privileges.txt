@@ -1436,7 +1436,6 @@ estate_jains_conscientious_objection = {
 	max_absolutism = -5
 	loyalty = 0.1
 	penalties = {
-		global_manpower_modifier = -0.1
 	}
 	benefits = {
 		yearly_corruption = -0.1

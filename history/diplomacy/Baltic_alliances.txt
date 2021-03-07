@@ -1,0 +1,8 @@
+
+# Polish vassal
+march = {
+	first = POL
+	second = MOL
+	start_date = 1444.11.11
+	end_date = 1497.12.31
+}
