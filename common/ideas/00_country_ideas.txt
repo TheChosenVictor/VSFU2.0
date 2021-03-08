@@ -13219,7 +13219,7 @@ KLE_ideas = {
 
 DEC_ideas = {
 	start = {
-		administrative_efficiency = 0.05
+		administrative_efficiency = 0.025
 		land_morale = 0.1
 	}
 
@@ -13245,7 +13245,7 @@ DEC_ideas = {
 		land_forcelimit_modifier = 0.2
 	}
 	dec_modernize_the_sarf_e_khas = {
-		discipline = 0.05
+		prestige = 1
 	}
 	dec_jewels_of_the_nizams = {
 		diplomatic_reputation = 1
