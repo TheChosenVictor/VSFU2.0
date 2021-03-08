@@ -1,4 +1,4 @@
-###########################################
+	###########################################
 # Formables
 ###########################################
 MSA_ideas = {
@@ -236,6 +236,49 @@ BUK_ideas = {
 	}
 	BUK_7 = {
 		monarch_admin_power = 1
+	}
+}
+
+SOV_ideas = {
+	start = {
+		core_creation = -0.10
+		global_manpower_modifier = 0.33
+	}
+
+	bonus = {
+		legitimacy = 1
+	}
+
+	trigger = {
+		tag = SOV
+	}
+	free = yes		#will be added at load.
+
+	SOV_1 = {
+		ae_impact = -0.1
+	}
+	SOV_2 = {
+		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
+	}
+	SOV_3 = {
+		artillery_cost = -0.1
+		artillery_power = 0.1
+	}
+	SOV_4  = {
+		land_forcelimit_modifier = 0.50
+	}
+
+	SOV_5 = {
+		yearly_corruption = -0.1
+	}
+	SOV_6 = {
+		advisor_cost = -0.10
+		army_tradition = 0.25
+	}	
+	SOV_7 = {
+		land_morale = 0.05
+		fire_damage_received = -0.1
 	}
 }
 
