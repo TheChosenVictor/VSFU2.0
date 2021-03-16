@@ -1726,8 +1726,8 @@ country_event = {
 	picture = DEATH_OF_HEIR_eventPicture
 	
 	trigger = {
-		is_year = 1490
-		tag = Pol
+		is_year = 1470
+		tag = POL
 	}
 	mean_time_to_happen = {
 		months = 10
